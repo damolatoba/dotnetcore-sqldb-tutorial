@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'webcertcaseweb'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4eed3f3ae20b4517ab0106f1ee5b9e9c }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9beb9d0feabd4a7d9b2f30cac638435f }}
         package: ${{env.DOTNET_ROOT}}/myapp 
